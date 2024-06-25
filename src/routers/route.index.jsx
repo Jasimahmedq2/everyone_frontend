@@ -23,6 +23,9 @@ import SignUp from "../components/LoginWithCreadential/loginWithSocial/SignUp";
 import Login from "../components/LoginWithCreadential/Login";
 import UserProfileEdit from "../components/profilePage/userProfileEdit/UserProfileEdit";
 import Pull from "../components/pull/Pull";
+import PostPopup from "../components/post/PostPopup";
+import PostBoost from "../components/post/PostBoost";
+import FeaturePost from "../components/post/FeaturePost";
 
 const router = createBrowserRouter([
     {
@@ -119,6 +122,19 @@ const router = createBrowserRouter([
             {
                 path: '/profile/upload-photo',
                 element: <UploadPhoto />
+            },
+            // Post
+            {
+                path: '/post-popup',
+                element: <PostPopup />
+            },
+            {
+                path: '/boost-post',
+                element: <PostBoost/>
+            },
+            {
+                path: '/feature-post',
+                element: <FeaturePost />
             },
         ],
     },

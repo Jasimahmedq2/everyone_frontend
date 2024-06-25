@@ -3,6 +3,7 @@ import Inboxes from "../messages/Inboxes";
 import MessageList from "../messages/messageList";
 import MessageSearch from "../messages/messageSearch";
 import SidebarActiveStatus from "./sidebarActiveStatus";
+import Drawer from "./Drawer";
 
 const LeftSidebar = () => {
 
@@ -24,12 +25,13 @@ const LeftSidebar = () => {
 
             {/* message search */}
 
-            <MessageSearch />
+            {/* <MessageSearch /> */}
 
             {/* all inboxes select */}
-            <Inboxes />
+            {/* <Inboxes /> */}
             {/* user list */}
-            <MessageList />
+            {/* <MessageList /> */}
+            <Drawer />
           </>
       }
     </div>

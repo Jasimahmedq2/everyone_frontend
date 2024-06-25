@@ -3,12 +3,13 @@ import profilePhoto from "../../../assets/Ellipse49.png";
 import { useState } from "react";
 
 const DisplayCommentUser = () => {
-  const [subscribing, setSubscribing] = useState(false);
+  // const [subscribing, setSubscribing] = useState(false);
 
   return (
-    <div className="flex flex-col items-center">
+   <div>
+     {/* <div className="flex flex-col items-center">
       <div className="mt-3 p-4 w-full flex items-center">
-        {/* User Image */}
+
         <div className="relative mr-2">
           <img
             src={profilePhoto}
@@ -16,7 +17,7 @@ const DisplayCommentUser = () => {
             className=" h-12 w-12 sm:h-16 sm:w-16 rounded-full object-cover"
           />
         </div>
-        {/* User Info */}
+        
         <div>
           <div className="text-start">
             <p className="sm:text-xl font-bold text-[#1C1E25] text-nowrap">
@@ -47,7 +48,8 @@ const DisplayCommentUser = () => {
           <img src={hand} alt="hand" />
         </div>
       </div>
-    </div>
+    </div> */}
+   </div>
   );
 };
 
